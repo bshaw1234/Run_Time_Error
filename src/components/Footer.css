@@ -1,0 +1,47 @@
+.footer {
+    width: 100vw;
+    height: 35vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    /* Example background color */
+    color:aliceblue
+}
+
+.imp{
+    width:100vh;
+    margin: 10px;
+
+}
+
+.imp2{
+    background-color: aliceblue;
+    border-radius: 3px;
+    color: black;
+    width :12vw;
+}
+.navbar-image {
+
+    margin: 40px 0 0 40px;
+
+    height: 120px;
+    /* Adjust image height as needed */
+}
+/* .image{
+
+} */
+.footer-content {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 10px;
+    /* width: 70vw; */
+    /* Adjust padding as needed */
+    margin-right: 100px;
+
+}
+
+
+
