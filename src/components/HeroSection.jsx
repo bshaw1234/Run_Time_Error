@@ -12,8 +12,8 @@ const HeroSection = () => {
          <span className='text-span'> EXPERIENCE</span>
 
         <span className='text-span'>DESIGNER &copy;</span>
-        <div className='small-text'><span>Currently <br/> crafting <br/> experiencr at Crosby</span>
-        <span>[2021 - Present]</span>
+        <div className='small-text'><span>CURRENTLY CRAFTING <br/> EXPERIENCE AT CROSBY</span>
+        <span>[2021 - PRESENT]</span>
         </div> 
     </div>
     <div className='hero-img'>

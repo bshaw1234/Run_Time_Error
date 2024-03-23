@@ -2,15 +2,24 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-between;
     /* border: 2px solid black; */
     /* box-shadow: 0 px 1px 0 rgba(0,0,0,.2); */
     background-color: '#DEDEDE';
+    font-family: sans-serif;
 }
 
 .left-navbar{
     display: flex;
     flex-direction: row;
-    width: 100vi;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+.right-navbar{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    /* border: 2px solid black; */
 }
 
 .left-list{
@@ -18,10 +27,11 @@
     flex-direction: row;
     justify-content: space-evenly;
     /* border:2px solid black; */
-    width:300px;
+    width:100%;
     list-style-type: none;
-    font-size: medium;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 600;
+    font-variant: small-caps;
 }
 
 .right-list{
@@ -31,12 +41,19 @@
     /* border:2px solid black; */
     width:500px;
     list-style-type: none;
-    font-size: medium;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .nav-link{
     text-decoration: none;
     color:black
+}
+
+.email{
+    background-color: white;
+    /* border: 2px solid black; */
+    padding: 5px 15px;
+    border-radius: 20px;
 }
 
