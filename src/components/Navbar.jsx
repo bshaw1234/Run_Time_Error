@@ -6,13 +6,13 @@ const Navbar = () => {
     <nav className='nav-container'>
         <div className='left-navbar'>
             <ul className='left-list'>
-                <li>
+                <li >
                     JENNY BROWN
                 </li>
-                <li>
+                <li style={{fontSize:'16px',fontWeight:'500'}}>
                 <a className='nav-link' href='#'>ABOUT</a>
                 </li>
-                <li>
+                <li style={{fontSize:'16px',fontWeight:'500'}}>
                 <a className='nav-link' href='#'>WORK</a>
                 </li>
             </ul>
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <a className='nav-link' href='#'>LET'S CONNECT</a>
                 </li>
                 <li>
-                <a className='nav-link' href='#'>info.bussiness@work.com</a>
+                <a className='nav-link' href='#'><div className='email'>info.bussiness@work.com</div></a>
                 </li>
             </ul>
         </div>

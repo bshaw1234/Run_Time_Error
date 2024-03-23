@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
+import SectionTwo from './components/SectionTwo'
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
     <>
       {/* <h1>Hello</h1>
        */}
-      <div>
+      <div style={{backgroundColor:'#80808033'}}>
         <Navbar />
         <HeroSection/>
+        <SectionTwo/>
         <Footer />
       </div>
       
